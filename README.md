@@ -14,6 +14,8 @@ Install vertual environment
 ```sh
 cd always-online
 
+pip3 install virtualenv
+
 python3 -m virtualenv venv
 
 ```
