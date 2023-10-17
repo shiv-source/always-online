@@ -28,7 +28,7 @@ Configure the script (for first time only)
 
 ```
 
-## Step 4
+## Step 3
 
 Run the script
 
