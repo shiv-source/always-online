@@ -9,32 +9,22 @@ Pyhton = 3.x
 
 ## Setp 1
 
-Install vertual environment
 
 ```sh
 cd always-online
 
-pip3 install virtualenv
+sudo chmod +x setup.sh
 
-python3 -m virtualenv venv
+sudo chmod +x start.sh
 
 ```
 
 ## Step 2
 
-Activate virtual environment
+Configure the script (for first time only)
 
 ```sh
-source venv/bin/activate
-
-```
-
-## Step 3
-
-Install all the required dependencies
-
-```sh
-pip install -r requirements.txt
+./setup.sh
 
 ```
 
@@ -43,7 +33,7 @@ pip install -r requirements.txt
 Run the script
 
 ```sh
-python run.py
+./start.sh
 
 ```
 
