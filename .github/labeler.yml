@@ -1,0 +1,3 @@
+documentation: README.md
+source: src/**/**
+workflow: .github/**/**
